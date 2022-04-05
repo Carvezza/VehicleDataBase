@@ -11,10 +11,10 @@ public class VehicleDataBaseRecord
         MaxVelocity = maxVelocity;
         IconName = iconName;
     }
-    public int ID { get; set; }
-    public string Name { get; set; }
-    public string IconName { get; set; }
-    public float Mass { get; set; }
-    public int Capacity { get; set; }
-    public float MaxVelocity { get; set; }
+    public int ID { get; private set; }
+    public string Name { get; private set; }
+    public string IconName { get; private set; }
+    public float Mass { get; private set; }
+    public int Capacity { get; private set; }
+    public float MaxVelocity { get; private set; }
 }

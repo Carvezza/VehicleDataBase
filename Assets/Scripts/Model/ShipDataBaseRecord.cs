@@ -4,5 +4,5 @@
     {
         Displacement = displacement;
     }
-    public float Displacement { get; set; }
+    public float Displacement { get; private set; }
 }

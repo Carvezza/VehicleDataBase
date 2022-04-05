@@ -4,5 +4,5 @@
     {
         LiftingForce = liftingForce;
     }
-    public float LiftingForce { get; set; }
+    public float LiftingForce { get; private set; }
 }

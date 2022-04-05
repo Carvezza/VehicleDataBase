@@ -4,5 +4,5 @@
     {
         Color = color;
     }
-    public ColorEnum Color { get; set; }
+    public ColorEnum Color { get; private set; }
 }

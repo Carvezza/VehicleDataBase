@@ -6,5 +6,5 @@ public class BikeDataBaseRecord : VehicleDataBaseRecord
     {
         Size = size;
     }
-    public Vector3Int Size { get; set; }
+    public Vector3Int Size { get; private set; }
 }
